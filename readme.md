@@ -12,10 +12,10 @@ More information can be found at the [official site](http://codeigniter.com).
 This codeigniter 4 project, you will learn how to implement CRUD Operation using Ajax with Server Side DataTable.
 
 ###### Requirements:
-* [Jquery]() 
-* [DataTable]() 
-* [SweetAlert2]()
-* [SSP Class Library]()
+* [Jquery](https://jquery.com/) 
+* [DataTable](https://datatables.net/) 
+* [SweetAlert2](https://sweetalert2.github.io/)
+* [SSP Class Library](https://github.com/emran/ssp)
 
 
 
