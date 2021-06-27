@@ -1,0 +1,39 @@
+CRITICAL - 2021-06-17 02:10:31 --> Undefined variable: route
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Config\Routes.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\BONI\\D...', 41, Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Router\RouteCollection.php(748): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Config\Routes.php(42): CodeIgniter\Router\RouteCollection->group('user', Object(Closure))
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(796): require('C:\\Users\\BONI\\D...')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#8 {main}
+CRITICAL - 2021-06-17 02:11:21 --> Undefined variable: route
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Config\Routes.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\BONI\\D...', 41, Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Router\RouteCollection.php(748): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Config\Routes.php(42): CodeIgniter\Router\RouteCollection->group('user', Object(Closure))
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(796): require('C:\\Users\\BONI\\D...')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#8 {main}
+CRITICAL - 2021-06-17 02:11:42 --> Call to a member function get() on null
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Router\RouteCollection.php(748): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Config\Routes.php(42): CodeIgniter\Router\RouteCollection->group('user', Object(Closure))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(796): require('C:\\Users\\BONI\\D...')
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-17 02:12:00 --> Undefined variable: route
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Config\Routes.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\BONI\\D...', 41, Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Router\RouteCollection.php(748): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Config\Routes.php(42): CodeIgniter\Router\RouteCollection->group('user', Object(Closure))
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(796): require('C:\\Users\\BONI\\D...')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#8 {main}

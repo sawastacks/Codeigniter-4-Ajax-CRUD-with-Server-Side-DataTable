@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
+         bootstrap="vendor/autoload.php"
+         cacheResultFile="build/.phpunit.cache/test-results"
+         colors="true"
+         executionOrder="depends,defects"
+         beStrictAboutOutputDuringTests="true"
+         beStrictAboutTodoAnnotatedTests="true"
+         forceCoversAnnotation="true"
+         failOnRisky="true"
+         failOnWarning="true"
+         verbose="true">
+    <testsuites>
+        <testsuite name="Nexus Tachycardia Test Suite">
+            <directory suffix="Test.php">tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <coverage cacheDirectory="build/.phpunit.cache/code-coverage"
+              ignoreDeprecatedCodeUnits="true"
+              processUncoveredFiles="true">
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+
+        <report>
+            <clover outputFile="build/logs/clover.xml"/>
+            <html outputDirectory="build/logs/html"/>
+        </report>
+    </coverage>
+
+    <extensions>
+        <extension class="Nexus\PHPUnit\Extension\Tachycardia">
+            <arguments>
+                <array>
+                    <element key="timeLimit">
+                        <double>1.00</double>
+                    </element>
+                    <element key="reportable">
+                        <integer>30</integer>
+                    </element>
+                    <element key="precision">
+                        <integer>4</integer>
+                    </element>
+                    <element key="tabulate">
+                        <boolean>false</boolean>
+                    </element>
+                    <element key="collectBare">
+                        <boolean>true</boolean>
+                    </element>
+                </array>
+            </arguments>
+        </extension>
+    </extensions>
+</phpunit>

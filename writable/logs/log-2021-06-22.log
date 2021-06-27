@@ -1,0 +1,8 @@
+CRITICAL - 2021-06-22 05:27:02 --> Undefined property: App\Controllers\UserController::$load
+#0 C:\Users\BONI\Desktop\CI4\Ci4_project Works\app\Controllers\UserController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\BONI\\D...', 10, Array)
+#1 C:\Users\BONI\Desktop\CI4\Ci4_project Works\system\CodeIgniter.php(900): App\Controllers\UserController->__construct()
+#2 C:\Users\BONI\Desktop\CI4\Ci4_project Works\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 C:\Users\BONI\Desktop\CI4\Ci4_project Works\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\BONI\Desktop\CI4\Ci4_project Works\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\BONI\Desktop\CI4\Ci4_project Works\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#6 {main}

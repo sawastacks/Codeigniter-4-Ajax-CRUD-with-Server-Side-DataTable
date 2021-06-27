@@ -1,0 +1,446 @@
+CRITICAL - 2021-06-20 04:49:51 --> Call to undefined function App\Controllers\Country()
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->addCountry()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#5 {main}
+CRITICAL - 2021-06-20 04:49:52 --> Call to undefined function App\Controllers\Country()
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->addCountry()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#5 {main}
+CRITICAL - 2021-06-20 04:50:02 --> Use of undefined constant Country - assumed 'Country' (this will throw an Error in a future version of PHP)
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\BONI\\D...', 184, Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->addCountry()
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#6 {main}
+CRITICAL - 2021-06-20 04:50:08 --> Use of undefined constant Country - assumed 'Country' (this will throw an Error in a future version of PHP)
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\BONI\\D...', 184, Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->addCountry()
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#6 {main}
+CRITICAL - 2021-06-20 06:59:24 --> Call to undefined function App\Controllers\validation_errors()
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->addCountry()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#5 {main}
+CRITICAL - 2021-06-20 06:59:38 --> Call to undefined function App\Controllers\validation_errors()
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->addCountry()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#5 {main}
+CRITICAL - 2021-06-20 06:59:58 --> Call to undefined function App\Controllers\validation_errors()
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->addCountry()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#5 {main}
+CRITICAL - 2021-06-20 07:16:34 --> Undefined variable: validation
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\BONI\\D...', 118, Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->addCountry()
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#6 {main}
+CRITICAL - 2021-06-20 07:16:36 --> Undefined variable: validation
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\BONI\\D...', 118, Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->addCountry()
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#6 {main}
+CRITICAL - 2021-06-20 08:02:22 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/deleteCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 08:03:25 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/deleteCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 08:33:59 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/updateCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 08:34:09 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/updateCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 08:34:12 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/updateCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 08:34:14 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/updateCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 08:34:14 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/updateCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 08:34:36 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/updateCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 08:34:37 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/updateCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 08:34:39 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/updateCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 08:34:40 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/updateCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 08:34:41 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/updateCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 08:34:41 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/updateCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 08:35:57 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/updateCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 08:36:55 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/updateCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 08:36:56 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/updateCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 08:36:56 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/updateCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 08:36:59 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/updateCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 08:36:59 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/updateCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 08:37:05 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/updateCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 11:02:13 --> Too few arguments to function App\Controllers\UserController::App\Controllers\{closure}(), 2 passed in C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php on line 50 and exactly 3 expected
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(50): App\Controllers\UserController->App\Controllers\{closure}('277', Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(292): SSP::data_output(Array, Array)
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(79): SSP::simple(Array, Array, 'countries', 'id', Array)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->allCountries()
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#8 {main}
+CRITICAL - 2021-06-20 11:04:36 --> Uninitialized string offset: 7
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', 'C:\\Users\\BONI\\D...', 54, Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(50): App\Controllers\UserController->App\Controllers\{closure}('277', Array)
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(292): SSP::data_output(Array, Array)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(79): SSP::simple(Array, Array, 'countries', 'id', Array)
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->allCountries()
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#9 {main}
+CRITICAL - 2021-06-20 11:41:25 --> Cannot use object of type App\Controllers\UserController as array
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(50): App\Controllers\UserController->App\Controllers\{closure}('277', Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(292): SSP::data_output(Array, Array)
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(79): SSP::simple(Array, Array, 'countries', 'id', Array)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->allCountries()
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#8 {main}
+CRITICAL - 2021-06-20 11:41:27 --> Cannot use object of type App\Controllers\UserController as array
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(50): App\Controllers\UserController->App\Controllers\{closure}('279', Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(292): SSP::data_output(Array, Array)
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(79): SSP::simple(Array, Array, 'countries', 'id', Array)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->allCountries()
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#8 {main}
+CRITICAL - 2021-06-20 11:41:44 --> Use of undefined constant rowIndex - assumed 'rowIndex' (this will throw an Error in a future version of PHP)
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\BONI\\D...', 54, Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(50): App\Controllers\UserController->App\Controllers\{closure}('277', Array)
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(292): SSP::data_output(Array, Array)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(79): SSP::simple(Array, Array, 'countries', 'id', Array)
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->allCountries()
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#9 {main}
+CRITICAL - 2021-06-20 11:41:52 --> Call to undefined function App\Controllers\rowIndex()
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(50): App\Controllers\UserController->App\Controllers\{closure}('279', Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(292): SSP::data_output(Array, Array)
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(79): SSP::simple(Array, Array, 'countries', 'id', Array)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->allCountries()
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#8 {main}
+CRITICAL - 2021-06-20 11:41:55 --> Call to undefined function App\Controllers\rowIndex()
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(50): App\Controllers\UserController->App\Controllers\{closure}('278', Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(292): SSP::data_output(Array, Array)
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(79): SSP::simple(Array, Array, 'countries', 'id', Array)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->allCountries()
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#8 {main}
+CRITICAL - 2021-06-20 11:44:12 --> Undefined variable: i
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\BONI\\D...', 54, Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(50): App\Controllers\UserController->App\Controllers\{closure}('279', Array)
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(292): SSP::data_output(Array, Array)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(79): SSP::simple(Array, Array, 'countries', 'id', Array)
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->allCountries()
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#9 {main}
+CRITICAL - 2021-06-20 11:44:28 --> Undefined property: App\Controllers\UserController::$i
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\BONI\\D...', 54, Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(50): App\Controllers\UserController->App\Controllers\{closure}('279', Array)
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(292): SSP::data_output(Array, Array)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(79): SSP::simple(Array, Array, 'countries', 'id', Array)
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->allCountries()
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#9 {main}
+CRITICAL - 2021-06-20 11:44:59 --> Too few arguments to function App\Controllers\UserController::App\Controllers\{closure}(), 2 passed in C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php on line 50 and exactly 3 expected
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(50): App\Controllers\UserController->App\Controllers\{closure}('279', Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(292): SSP::data_output(Array, Array)
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(79): SSP::simple(Array, Array, 'countries', 'id', Array)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->allCountries()
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#8 {main}
+CRITICAL - 2021-06-20 11:45:16 --> Too few arguments to function App\Controllers\UserController::App\Controllers\{closure}(), 2 passed in C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php on line 50 and exactly 3 expected
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(50): App\Controllers\UserController->App\Controllers\{closure}('279', Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(292): SSP::data_output(Array, Array)
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(79): SSP::simple(Array, Array, 'countries', 'id', Array)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->allCountries()
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#8 {main}
+CRITICAL - 2021-06-20 11:45:25 --> Too few arguments to function App\Controllers\UserController::App\Controllers\{closure}(), 2 passed in C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php on line 50 and exactly 3 expected
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(50): App\Controllers\UserController->App\Controllers\{closure}('279', Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(292): SSP::data_output(Array, Array)
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(79): SSP::simple(Array, Array, 'countries', 'id', Array)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->allCountries()
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#8 {main}
+CRITICAL - 2021-06-20 11:45:43 --> Too few arguments to function App\Controllers\UserController::App\Controllers\{closure}(), 2 passed in C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php on line 50 and exactly 3 expected
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(50): App\Controllers\UserController->App\Controllers\{closure}('279', Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\ThirdParty\ssp.class.php(292): SSP::data_output(Array, Array)
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(79): SSP::simple(Array, Array, 'countries', 'id', Array)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->allCountries()
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#8 {main}
+ERROR - 2021-06-20 12:18:36 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-06-20 12:18:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\BaseModel.php(538): CodeIgniter\Model->doFind(true, '278')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(140): CodeIgniter\BaseModel->find('278')
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->CountryInfo()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#10 {main}
+CRITICAL - 2021-06-20 12:33:33 --> Undefined property: CodeIgniter\View\View::$security
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Views\layout\dashboard-layout.php(305): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\BONI\\D...', 305, Array)
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\View\View.php(230): include('C:\\Users\\BONI\\D...')
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\View\View.php(246): CodeIgniter\View\View->render('layout/dashboar...', Array, true)
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Common.php(1271): CodeIgniter\View\View->render('dashboard/count...', Array, true)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\app\Controllers\UserController.php(26): view('dashboard/count...', Array)
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(928): App\Controllers\UserController->countries()
+#7 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#11 {main}
+CRITICAL - 2021-06-20 12:35:29 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/deleteCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 12:35:34 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/deleteCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 12:35:52 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/deleteCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}
+CRITICAL - 2021-06-20 12:36:53 --> The action you requested is not allowed.
+#0 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('user/deleteCoun...', 'before')
+#4 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\BONI\Desktop\CI4\CodeIgniter4-4.1.3\Ci4_project\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\BONI\\D...')
+#7 {main}

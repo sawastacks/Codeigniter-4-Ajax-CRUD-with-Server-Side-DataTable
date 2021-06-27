@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ruleset name="CodeIgniter4">
+    <description>CodeIgniter 4 coding standard for PHP_CodeSniffer</description>
+    <!--
+     * CodeIgniter 4 coding standard for PHP_CodeSniffer
+     *
+     * @author    Louis Linehan <louis.linehan@gmail.com>
+     * @copyright 2017 British Columbia Institute of Technology
+     * @license   https://github.com/bcit-ci/CodeIgniter4-Standard/blob/master/LICENSE MIT License
+    -->
+    <!--
+    Files MUST have a doc block comment.
+    Checks file comment tag format and order.
+    -->
+    <rule ref="CodeIgniter4.Commenting.FileComment">
+        <properties>
+            <property name="error" value="true"/>
+        </properties>
+    </rule>
+    <!--
+    Classes MUST have a doc block comment.
+    -->
+    <rule ref="Squiz.Commenting.ClassComment"/>
+    <!--
+    Checks class comment tag format and order.
+    -->
+    <rule ref="CodeIgniter4.Commenting.ClassComment"/>
+    <!--
+    Allow class tags.
+    -->
+    <rule ref="Squiz.Commenting.ClassComment.TagNotAllowed">
+        <severity>0</severity>
+    </rule>
+    <!--
+    Properties MUST have a doc block comment.
+    -->
+    <rule ref="Squiz.Commenting.VariableComment"/>
+    <!--
+    Methods and functions MUST have a doc block comment.
+    -->
+    <rule ref="Squiz.Commenting.FunctionComment"/>
+    <rule ref="Squiz.Commenting.FunctionComment.ParamCommentNotCapital">
+        <severity>0</severity>
+    </rule>
+    <rule ref="Squiz.Commenting.FunctionComment.ParamCommentFullStop">
+        <severity>0</severity>
+    </rule>
+    <rule ref="Squiz.Commenting.FunctionComment.EmptyThrows">
+        <severity>0</severity>
+    </rule>
+    <rule ref="Squiz.Commenting.FunctionComment.ThrowsNotCapital">
+        <severity>0</severity>
+    </rule>
+    <rule ref="Squiz.Commenting.FunctionComment.ThrowsNoFullStop">
+        <severity>0</severity>
+    </rule>
+    <!--
+    Doc block comment alignment.
+    -->
+    <rule ref="Squiz.Commenting.DocCommentAlignment"/>
+    <!--
+    Warn about //... comments after statments.
+    -->
+    <rule ref="Squiz.Commenting.PostStatementComment">
+        <type>warning</type>
+        <exclude phpcbf-only="true" name="Squiz.Commenting.PostStatementComment.Found"/>
+    </rule>
+    <!--
+    Change the error message.
+    -->
+    <rule ref="Squiz.Commenting.PostStatementComment.Found">
+        <message>Comments should not appear after statements</message>
+    </rule>
+    <!--
+    Doc block comment format and spacing.
+    -->
+    <rule ref="Generic.Commenting.DocComment"/>
+    <!--
+    Tab width is 4 spaces (for phpcs)
+    -->
+    <arg name="tab-width" value="4"/>
+    <!--
+    Ignore application/Views/ directory.
+    Ignore application/ThirdParty/ directory.
+    Ignore system/ThirdParty/ directory.
+    There could be a mix of styles in ThirdParty and View files
+    could contain all sorts of indentation, alignments and scopes.
+    @todo subject to change.
+    -->
+    <arg
+    name="ignore"
+    value="*/application/Views/*,*/application/ThirdParty/*,*/system/ThirdParty/*"/>
+    <!--
+    Files MUST use UTF-8 character set encoding without BOM
+    -->
+    <rule ref="Generic.Files.ByteOrderMark"/>
+    <!--
+    Files MUST NOT have the PHP closing tag '?>' at the end as the last content.
+    Files MUST END with a single empty line.
+    -->
+    <rule ref="PSR2.Files.EndFileNewline"/>
+    <!--
+    Disallow short php open tags "<?".
+    -->
+    <rule ref="Generic.PHP.DisallowShortOpenTag"/>
+    <!--
+    Allow short php echo tags "<?=".
+    -->
+    <rule ref="Generic.PHP.DisallowShortOpenTag.EchoFound">
+        <severity>0</severity>
+    </rule>
+    <!--
+    User defined constants must be upper case.
+    -->
+    <rule ref="Generic.NamingConventions.UpperCaseConstantName"/>
+    <!--
+    Boolean or "||" must be used. Not logical "or".
+    -->
+    <rule ref="CodeIgniter4.Operators.BooleanOr"/>
+    <!--
+    Boolean and "&&" must be used. Not logical "and".
+    -->
+    <rule ref="CodeIgniter4.Operators.BooleanAnd"/>
+    <!--
+    Boolean not "!" must have a space after.
+    -->
+    <rule ref="CodeIgniter4.WhiteSpace.BooleanNotSpaceAfter"/>
+    <!--
+    Is identical "===" must be used. Not is equal "==".
+    -->
+    <rule ref="CodeIgniter4.Operators.IsIdentical"/>
+    <!--
+    Is not identical "!==" must be used. Not is not equal "!=".
+    -->
+    <rule ref="CodeIgniter4.Operators.IsNotIdentical"/>
+    <!--
+    Warning for discouraged functions.
+    'print_r',
+    'var_dump'
+    @todo subject to change.
+    -->
+    <rule ref="CodeIgniter4.PHP.DiscouragedFunctions"/>
+    <!--
+    White space. (Unnecessary tabs, spaces and lines).
+    There must not be white space at the start of the file.
+    There must not be white space at the end of lines.
+    There must not be white space on empty lines.
+    There must not be white space at the start of the file.
+    -->
+    <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace"/>
+    <!--
+    Checks for more than one consecutive empty line.
+    -->
+    <rule ref="CodeIgniter4.WhiteSpace.VerticalEmptyLines"/>
+    <!--
+    There should be one class per file, execept for cases where
+    breaking this rule makes more sense.
+    'Exception.php',
+    'Exceptions.php',
+    'CustomExceptions.php',
+    'Response.php'
+    @todo subject to change.
+    -->
+    <rule ref="CodeIgniter4.Files.OneClassPerFile"/>
+    <rule ref="Generic.Files.OneInterfacePerFile"/>
+    <rule ref="Generic.Files.OneTraitPerFile"/>
+    <!--
+    Checks tabs are used for indenting scopes.
+    -->
+    <rule ref="Generic.WhiteSpace.ScopeIndent">
+        <properties>
+            <property name="tabIndent" value="true"/>
+        </properties>
+    </rule>
+    <!--
+    Checks tabs are used for indenting.
+    -->
+    <rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
+    <!--
+    Checks tabs are not used in alignment.
+    -->
+    <rule ref="CodeIgniter4.WhiteSpace.DisallowTabsInAlignment"/>
+    <!--
+    Checks line endings are unix "\n".
+    -->
+    <rule ref="Generic.Files.LineEndings">
+        <properties>
+            <property name="eolChar" value="\n"/>
+        </properties>
+    </rule>
+    <!--
+    Checks opening function brace "{" is BsdAllman.
+    -->
+    <rule ref="Generic.Functions.OpeningFunctionBraceBsdAllman"/>
+    <!--
+    Checks control structures are BsdAllman.
+    -->
+    <rule ref="CodeIgniter4.ControlStructures.AllmanControlSignature"/>
+    <!--
+    Checks control structures are spaced properly.
+    -->
+    <rule ref="CodeIgniter4.ControlStructures.ControlStructureSpacing"/>
+    <!--
+    Checks function arguments are spaced properly.
+    -->
+    <rule ref="Generic.Functions.FunctionCallArgumentSpacing"/>
+    <!--
+    Checks visibilty is declared for method scopes.
+    -->
+    <rule ref="Squiz.Scope.MethodScope"/>
+    <!--
+    Checks scope keywords are spaced properly.
+    -->
+    <rule ref="Squiz.WhiteSpace.ScopeKeywordSpacing"/>
+    <!--
+    Disallow multiple statements on one line.
+    -->
+    <rule ref="Generic.Formatting.DisallowMultipleStatements"/>
+    <!--
+    Use single quotes unless the string contains single quotes.
+    -->
+    <rule ref="Squiz.Strings.DoubleQuoteUsage"/>
+    <!--
+    Warning for lines exceeding 120 characters.
+    -->
+    <rule ref="Generic.Files.LineLength">
+        <properties>
+            <property name="lineLimit" value="250"/>
+            <property name="absoluteLineLimit" value="0"/>
+        </properties>
+    </rule>
+    <!--
+    Checks function and method arguments with default values are at the
+    end of the argument list.
+    -->
+    <rule ref="PEAR.Functions.ValidDefaultValue"/>
+    <!--
+    Checks single and multi-line function declarations are styled properly.
+    -->
+    <rule ref="CodeIgniter4.Functions.FunctionDeclaration"/>
+    <!--
+    Checks arguments in functions are spaced properly.
+    -->
+    <rule ref="Squiz.Functions.FunctionDeclarationArgumentSpacing">
+        <properties>
+            <property name="equalsSpacing" value="1"/>
+        </properties>
+    </rule>
+    <!--
+    Checks there are no blank lines after a function opening brace.
+    -->
+    <rule ref="Squiz.WhiteSpace.FunctionOpeningBraceSpace"/>
+    <!--
+    Checks there are no blank lines before a function closing brace.
+    -->
+    <rule ref="CodeIgniter4.WhiteSpace.FunctionClosingBraceSpace"/>
+    <!--
+    The keyword elseif SHOULD be used instead of else if so that all control
+    keywords look like single words.
+    -->
+    <rule ref="PSR2.ControlStructures.ElseIfDeclaration"/>
+    <!--
+    Checks for each declarations are styled properly.
+    -->
+    <rule ref="Squiz.ControlStructures.ForEachLoopDeclaration"/>
+    <!--
+    Checks for loop declarations are styled properly.
+    -->
+    <rule ref="Squiz.ControlStructures.ForLoopDeclaration"/>
+    <!--
+    Checks inline control structures and fixes with phpcbf.
+    -->
+    <rule ref="Generic.ControlStructures.InlineControlStructure"/>
+    <!--
+    Warning for todo items.
+    -->
+    <rule ref="Generic.Commenting.Todo"/>
+    <!--
+    Check concatenation spacing and if concatenation is needed.
+    -->
+    <rule ref="Squiz.Strings.ConcatenationSpacing">
+        <properties>
+            <property name="spacing" value="1"/>
+            <property name="ignoreNewlines" value="true"/>
+        </properties>
+    </rule>
+    <!--
+    Check operator spacing.
+    -->
+    <rule ref="Squiz.WhiteSpace.OperatorSpacing">
+        <properties>
+            <property name="ignoreNewlines" value="true"/>
+        </properties>
+    </rule>
+    <!--
+    Filename must match class if it contains one.
+    -->
+    <rule ref="CodeIgniter4.Files.FilenameMatchesClass"/>
+    <!--
+    Checks namespace declaration.
+    -->
+    <rule ref="PSR2.Namespaces.NamespaceDeclaration"/>
+    <!--
+    Checks use declaration.
+    -->
+    <rule ref="PSR2.Namespaces.UseDeclaration"/>
+    <!--
+    Checks PHP keywords are lower case.
+    -->
+    <rule ref="Generic.PHP.LowerCaseKeyword"/>
+    <!--
+    PHP constants "true", "false" and "null" must be lower case.
+    -->
+    <rule ref="Generic.PHP.LowerCaseConstant"/>
+    <!--
+    Checks variable names are lowerCamelCase().
+    This is a loose check and will allow acronyms.
+    -->
+    <rule ref="CodeIgniter4.NamingConventions.ValidVariableName"/>
+    <!--
+    Checks method names are lowerCamelCase() except allowed public method names.
+    This is a loose check and will allow acronyms.
+    '_remap'
+    @todo subject to change.
+    -->
+    <rule ref="CodeIgniter4.NamingConventions.ValidMethodName"/>
+    <!--
+    Checks function names (outside scope) are snake_case.
+    -->
+    <rule ref="CodeIgniter4.NamingConventions.ValidFunctionName"/>
+    <!--
+    Checks array bracket spaces.
+    -->
+    <rule ref="Squiz.Arrays.ArrayBracketSpacing"/>
+    <!--
+    Check array declaration, indentation, alignment and that the last item
+    has a trailing comma.
+    Checks arrays are declared as "[]" not "array()".
+    -->
+    <rule ref="CodeIgniter4.Arrays.ArrayDeclaration"/>
+    <!--
+    Checks statments on subsequent lines are aligned. (line up the "=").
+    -->
+    <rule ref="Generic.Formatting.MultipleStatementAlignment">
+        <properties>
+            <property name="error" value="true"/>
+        </properties>
+    </rule>
+    <!--
+    Checks *_helper.php files only contain functions
+    and that the filename is lower snake_case.
+    -->
+    <rule ref="CodeIgniter4.Files.HelperFile"/>
+</ruleset>
